@@ -27,9 +27,7 @@
     width: 100%;
     z-index: 1;
 }
-body {
-    background: black;
-}
+
 .welcome-div {
     margin: 4% 10% 5% 10%;
 }
@@ -75,4 +73,17 @@ body {
     position: relative;
     left: 62%;
     bottom: 8em;
+}
+.main-p-text {
+    text-align: center;
+    font-size: 1.2em;
+}
+#section-1 {
+    border: 1px solid grey;
+    width: 101vw;
+    position: relative;
+    right: 5px;
+}
+body {
+    overflow-x: hidden;
 }
