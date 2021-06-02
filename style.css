@@ -79,11 +79,19 @@
     font-size: 1.2em;
 }
 #section-1 {
-    border: 1px solid grey;
+    border: 1px solid black;
     width: 101vw;
     position: relative;
     right: 5px;
+    top: 6px;
 }
 body {
     overflow-x: hidden;
+}
+#section1img {
+    width: 50vw;
+    position: relative;
+    left: 25vw;
+    border: 0.5px solid black;
+    margin-bottom: 10px;
 }
