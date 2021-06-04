@@ -95,3 +95,17 @@ body {
     border: 0.5px solid black;
     margin-bottom: 10px;
 }
+#section-2 {
+    border: 1px solid black;
+    width: 49%;
+    position: relative;
+    top: 5px;
+    right: 3px;
+}
+.negative-p-margin {
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+.s2p {
+    font-size: 20px;
+}
