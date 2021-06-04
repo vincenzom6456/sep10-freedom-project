@@ -97,10 +97,11 @@ body {
 }
 #section-2 {
     border: 1px solid black;
-    width: 49%;
+    width: 49.9%;
     position: relative;
     top: 5px;
     right: 3px;
+    height: 105vh;
 }
 .negative-p-margin {
     margin-top: -5px;
@@ -109,3 +110,32 @@ body {
 .s2p {
     font-size: 20px;
 }
+#section-3 {
+    border: 1px solid black;
+    width: 49.9%;
+    position: relative;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+    height: 105vh;
+    border-right: 10px;
+}
+.img-size-config {
+    height: 250px;
+    width: 340px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.content-adjustment {
+    position: relative;
+    top: 40px;
+}
+.s3p {
+    font-size: 20px;
+}
+.img1 {
+    height: 250px;
+    position: relative;
+    top: 71px;
+    width: 250px;
+}    
