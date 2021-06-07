@@ -79,7 +79,7 @@
     font-size: 1.2em;
 }
 #section-1 {
-    border: 1px solid black;
+    border: 0px solid black;
     width: 101vw;
     position: relative;
     right: 5px;
@@ -92,11 +92,11 @@ body {
     width: 50vw;
     position: relative;
     left: 25vw;
-    border: 0.5px solid black;
+    border: 1px solid black;
     margin-bottom: 10px;
 }
 #section-2 {
-    border: 1px solid black;
+    border: 0px solid black;
     width: 49.9%;
     position: relative;
     top: 5px;
@@ -111,7 +111,7 @@ body {
     font-size: 20px;
 }
 #section-3 {
-    border: 1px solid black;
+    border: 0px solid black;
     width: 49.9%;
     position: relative;
     top: 5px;
@@ -139,3 +139,12 @@ body {
     top: 71px;
     width: 250px;
 }    
+#s3link {
+    position: relative;
+    bottom: 130px;
+}
+#s2link {
+    position: relative;
+    bottom: 130px;
+    left: 50px;
+}
