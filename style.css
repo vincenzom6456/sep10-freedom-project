@@ -186,6 +186,16 @@ body {
         height: 25vh;
         width: 25vw;
     }
+    #mrM {
+        float: none;
+        top: 0.1em;
+        position: relative;
+        left: 40%;
+    }
+    #vm {
+        float: none;
+        left: 40%;
+    }
 }
 @media(max-width:400px) {
     #section-2 {
@@ -223,5 +233,36 @@ body {
 @media(max-width:200px) {
     .home {
         left: 0px;
+    }
+}
+@media(max-width:674px) {
+    .directory-button {
+        width: 50px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+@media(max-width:400px) {
+    #mrM {
+        float: none;
+        top: 0.1em;
+        position: relative;
+        left: 30%;
+    }
+    #vm {
+        float: none;
+        left: 30%;
+    }
+}
+@media(max-width:350px) {
+    #mrM {
+        float: none;
+        top: 0.1em;
+        position: relative;
+        left: 15%;
+    }
+    #vm {
+        float: none;
+        left: 15%;
     }
 }
