@@ -91,8 +91,9 @@ body {
     width: 50vw;
     position: relative;
     left: 25vw;
-    border: 1px solid black;
+    border: 2px solid black;
     margin-bottom: 10px;
+    border-radius: 25px;
 }
 #section-2 {
     border: 0px solid black;
@@ -264,5 +265,24 @@ body {
     #vm {
         float: none;
         left: 15%;
+    }
+}
+@media(max-width:450px) {
+    .page-title {
+        font-size: 50px;
+    }
+}
+@media(max-width:330px) {
+    .page-title {
+        font-size: 30px;
+    }
+    .credit-size {
+        width: 8em;
+    }
+    .phone-px-adj {
+        font-size: 15px;
+    }
+    .phone-px-adj-p {
+        font-size: 12px;
     }
 }
