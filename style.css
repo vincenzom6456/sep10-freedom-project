@@ -188,8 +188,7 @@ body {
     .img1 {
         margin-left: auto;
         margin-right: auto;
-        height: 25vh;
-        width: 25vw;
+
     }
     #mrM {
         float: none;
@@ -200,6 +199,9 @@ body {
     #vm {
         float: none;
         left: 40%;
+    }
+    #s2link {
+        top: 30px;
     }
 }
 @media(max-width:400px) {
@@ -304,5 +306,24 @@ body {
     }
     .size {
         height: 150px;
+    }
+}
+@media(max-width:1027px) {
+    #s3link {
+        position: relative;
+        top: 15px;
+    }
+}
+@media(max-width:775px) {
+    .img1 {
+        width: 150px;
+        height: 150px;
+    }
+}
+@media(max-width:630px) {
+    .img1 {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 50px;
     }
 }
