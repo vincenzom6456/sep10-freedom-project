@@ -76,6 +76,7 @@
 .main-p-text {
     text-align: center;
     font-size: 1.2em;
+    padding-top: 50px;
 }
 #section-1 {
     border: 0px solid black;
@@ -83,6 +84,7 @@
     position: relative;
     right: 5px;
     top: 6px;
+    padding: 50px;
 }
 body {
     overflow-x: hidden;
@@ -102,6 +104,7 @@ body {
     top: 5px;
     right: 3px;
     height: 105vh;
+    padding: 50px;
 }
 .negative-p-margin {
     margin-top: -5px;
@@ -119,6 +122,7 @@ body {
     text-align: center;
     height: 105vh;
     border-right: 10px;
+    padding: 50px;
 }
 .img-size-config {
     height: 250px;
